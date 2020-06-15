@@ -274,15 +274,19 @@
 }
 
 .section-subtitle_theme_dark {
-color: white;
+  color: white;
+}
+
+.table_theme_dark {
+  margin-bottom: 0;
 }
 
 .table__cell_theme_dark {
-width: 200px;
-margin-top: 80px;
-margin-right: 0;
+  width: 200px;
+  margin-top: 80px;
+  margin-right: 0;
 
-color: white;
+  color: white;
 }
 
 .kaufman__triangle {
@@ -321,8 +325,8 @@ color: white;
 }
 
 .footer__column {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column_content_copyright {
