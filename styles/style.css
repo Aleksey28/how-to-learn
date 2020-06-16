@@ -30,7 +30,7 @@
   left: 64px;
 
   background-image: url('../images/logo_place_header.svg');
-  background-size: cover;
+  background-size: contain;
 }
 
 .header__title {
