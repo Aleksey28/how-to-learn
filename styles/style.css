@@ -30,7 +30,7 @@
   left: 64px;
 
   background-image: url('../images/logo_place_header.svg');
-  background-size: 183px 32px;
+  background-size: cover;
 }
 
 .header__title {
@@ -202,6 +202,7 @@
   position: relative;
 
   height: 790px;
+  padding-top: 100px;
 
   text-align: center;
 
@@ -210,7 +211,6 @@
 
 .feynman__title {
   position: relative;
-  z-index: 2;
 
   width: 648px;
   margin: 0 auto;
@@ -222,7 +222,6 @@
 
 .feynman__subtitle {
   position: relative;
-  z-index: 2;
 
   margin: 70px 0 0 0;
   padding: 0;
@@ -247,14 +246,9 @@
 }
 
 .feynman__main-illustration {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-
-  width: 867px;
-  height: 637px;
-
   background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
   background-size: 867px 637px;
 }
 
@@ -299,7 +293,7 @@
   height: 877px;
 
   background-image: url('../images/kaufman-triangle.svg');
-  background-size: 877px;
+  background-size: cover;
 }
 
 .footer {
@@ -340,7 +334,7 @@
   height: 35px;
 
   background-image: url('../images/logo_place_footer.svg');
-  background-size: 183px 35px;
+  background-size: cover;
 }
 
 .footer__author {
