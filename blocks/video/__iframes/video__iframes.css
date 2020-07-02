@@ -8,3 +8,7 @@
 
   font-size: 0;
 }
+
+.video__iframes :nth-child(2) {
+  margin-left: 20px;
+}

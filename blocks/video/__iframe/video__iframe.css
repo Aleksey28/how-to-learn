@@ -1,7 +1,8 @@
 .video__iframe {
-  list-style: none;
-}
+  width: 515px;
+  height: 316px;
 
-.video__iframe:nth-child(2) {
-  margin-left: 20px;
+  list-style: none;
+
+  border: none;
 }

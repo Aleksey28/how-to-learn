@@ -4,5 +4,10 @@
 
   list-style: none;
 
+  transition: opacity .7s ease;
   text-align: center;
+}
+
+.resources__logo:hover {
+  opacity: .5;
 }
